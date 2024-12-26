@@ -1,0 +1,51 @@
+{
+  "name": "mykitchen",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@icon/heroicons-outline": "^0.4.2-alpha.0",
+    "cra-template": "1.2.0",
+    "heroicons": "^2.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "solid-heroicons": "^3.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postcss": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^8.4.7",
+    "@storybook/addon-knobs": "^8.0.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "name": "The Caesar",
+    "category":"salad",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "19",
+    "img":"/images/robots.jpeg"
+  }, 
+  {
+    "id":2,
+    "name": "Surf & Turf",
+    "category":"desert",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "17",
+    "img":"/images/robots.jpeg"
+  },
+  {
+    "id":3,
+    "name": "Creamy Sage",
+    "category":"meet",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "21",
+    "img":"/images/robots.jpeg"
+  },
+  {
+    "id":4,
+    "name": "From the Sea",
+    "category":"sea food",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "23",
+    "img":"/images/robots.jpeg"
+  },
+  {
+    "id":5,
+    "name": "BB's Tenderloin",
+    "category":"fish",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "18",
+    "img":"/images/robots.jpeg"
+  },
+  {
+    "id":6,
+    "name": "Chicken Marsala",
+    "category":"chicken",
+    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "price": "22",
+    "img":"/images/robots.jpeg"
+  }
+]
