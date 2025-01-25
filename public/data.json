@@ -1,50 +1,311 @@
 [
   {
     "id":1,
-    "name": "The Caesar",
-    "category":"salad",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-    "price": "19",
-    "img":"/images/robots.jpeg"
+    "name": "Patetes Topları",
+    "category":"salata",
+    "description": "Haşlanmış patetes, taze soğan, maydonoz, rendelenmiş kavrulmuş havuç, limonsuyu, tuz,karabiber ",
+    "img":"/images/patatoball.jpeg"
   }, 
   {
     "id":2,
-    "name": "Surf & Turf",
-    "category":"desert",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-    "price": "17",
-    "img":"/images/robots.jpeg"
+    "name": "Whopper Burger",
+    "category":"burger",
+    "description": "Hamburger köftesi ev yapımı. Marul, domates, soğan, turşu, acılı mayone, sarımsaklı mayonez. ",
+    "img":"/images/burger.jpeg"
   },
   {
     "id":3,
-    "name": "Creamy Sage",
-    "category":"meet",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-    "price": "21",
-    "img":"/images/robots.jpeg"
+    "name": "Ton Balıklı Salata",
+    "category":"salata",
+    "description": "Ton balığı, marul, tazesoğan, avokado, turşu, limon, narekşisi, sarımsak, tuz. ",
+    "img":"/images/tonsalad.jpeg"
   },
   {
     "id":4,
-    "name": "From the Sea",
-    "category":"sea food",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
+    "name": "Sebze Salata",
+    "category":"salata",
+    "description": "Karnıbahar, brokoli, havuç, dereotu, maydonoz, turşu, kırmızı biber, limon, tuz, narekşisi.",
     "price": "23",
-    "img":"/images/robots.jpeg"
+    "img":"/images/vegetable.jpg"
   },
   {
     "id":5,
-    "name": "BB's Tenderloin",
-    "category":"fish",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-    "price": "18",
-    "img":"/images/robots.jpeg"
+    "name": "Tatlı Ekşi Soslu Tavuk",
+    "category":"tavuk",
+    "description": "Tavuk sote, tazesoğan, sarımsak, bal(yada şeker), soya sos, nar ekşisi, nişasta, tuz. ",
+    "img":"/images/sweetchicken.jpg"
   },
   {
     "id":6,
-    "name": "Chicken Marsala",
-    "category":"chicken",
-    "description": "Crisp romaine lettuce tossed with our homemade Caesar dressing, croutons, and shredded parmesan cheese.",
-    "price": "22",
+    "name": "Soya Soslu Tavuk",
+    "category":"tavuk",
+    "description": "Tavuk sote, soya sos, soğan, kızrmızı biber, karabiber, tuz.",
+    "img":"/images/chickensoy.jpg"
+  },
+  {
+    "id":7,
+    "name": "Kivili Yulaf Lapası",
+    "category":"fit yaşam",
+    "description": "Yulaf lapası, nesfit, chia tohumu, bal, kakao, süt, kivi.",
+    "img":"/images/oatkiwi.jpg"
+  },
+  {
+    "id":8,
+    "name": "Özbek Pilavı",
+    "category":"Pilav",
+    "description": "Kuzu eti, tereyağ, soğan, sarımsak, havuç, pirinç, tereyağı, kimyon, karabiber, pirinç, tuz.",
+    "img":"/images/uzbekpilaf.jpg"
+  },
+  {
+    "id":9,
+    "name": "Nohutlu Salata",
+    "category":"salata",
+    "description": "Haşlanmış nohut, kıvırcık marul, maydonoz, dereotu, domates, jalopen turşu.",
+    "img":"/images/salad1.jpg"
+  },
+  {
+    "id":10,
+    "name": "Havuç Toplar",
+    "category":"fit yaşam tatlı",
+    "description": "Haşlanmış havuç, yulaf lapası, kakao, bal, ceviz, süt, hindistan cevizi.",
+    "img":"/images/carrotballs.jpg"
+  },
+  {
+    "id":11,
+    "name": "Kayısılı Et",
+    "category":"kırmızı et",
+    "description": "Dana yada kuzu eti, tereyağ, salça, pekmez(yada bal), kuru kayısı, soğan, tuz.",
+    "img":"/images/meat1.jpg"
+  },
+  {
+    "id":12,
+    "name": "Kaşarlı Tavuk Sote",
+    "category":"tavuk",
+    "description": "Tavuk, soğan, biber, karabiber, kekik, tuz, kaşar peynir.",
+    "img":"/images/chicken1.jpg"
+  },
+  {
+    "id":13,
+    "name": "Mısırlı Salata",
+    "category":"salata",
+    "description": "Marul, maydonoz, taze soğan, dereotu, mısır, siyah zeytin, tuz, z.yağı, nar ekşisi.",
+    "img":"/images/salad2.jpg"
+  },
+  {
+    "id":14,
+    "name": "Kremalı Fesleğenli Makarna",
+    "category":"tavuk",
+    "description": "Makarna, taze fesleğen, krema, kuru fesleğen, tereyağı, süt, tuz. ",
+    "img":"/images/pasta1.jpg"
+  },
+  {
+    "id":15,
+    "name": "Magnolia",
+    "category":"tatlı",
+    "description": "Çilekli, muzlu, oreolu, limonlu kavonoz magnolia.",
+    "img":"/images/desert1.jpg"
+  },
+  {
+    "id":16,
+    "name": "Kahvaltı Tabağı",
+    "category":"kahvaltı",
+    "description": "Haşlanmış yumurta, sosis, pastırma, domates, avokado, salatalık, peynir, zeytin, lavaş.",
+    "img":"/images/breakfast.jpg"
+  },
+  {
+    "id":17,
+    "name": "Kek",
+    "category":"tatlı",
+    "description": "Sade, kakaolu, limonlu, portakalllı, havuçlu cevizli, tarçınlı elmalı kek.",
+    "img":"/images/desert2.jpg"
+  },
+  {
+    "id":18,
+    "name": "Somon Balığı",
+    "category":"balık",
+    "description": "Soğan patates havuç limon yatağında somon balığı, çeşitli haşlanmış sebzeler.",
     "img":"/images/robots.jpeg"
+  },
+  {
+    "id":19,
+    "name": "Tavuk",
+    "category":"tavuk",
+    "description": "Kırmızı biber, soğan, beşamel sos, kaşar peynir, tavuk, baharatlar.",
+    "img":"/images/chicken3.jpg"
+  },
+  {
+    "id":20,
+    "name": "Lazanya",
+    "category":"makarna",
+    "description": "Lazanya, kıyma,soğan, domates, salça, sarımsak, tuz, beşamal sos, kaşar peyniri. ",
+    "img":"/images/lasagna.jpg"
+  },
+  {
+    "id":21,
+    "name": "Çupra Menü",
+    "category":"balık",
+    "description": "Soğan kırmızı biber yeşil biber yatağında çupra, maydonoz, kekik, fesleğen, limon, tuz,sumak, yanında salata",
+    "img":"/images/fishmenu.jpg"
+  },
+  {
+    "id":22,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":23,
+    "name": "Et Menü",
+    "category":"et menü",
+    "description": "Et güveç, yoğurt çorbası, yaprak sarması, gavurdağı salata",
+    "img":"/images/meatmenu.jpg"
+  },
+  {
+    "id":24,
+    "name": "Gavurdağı Salata",
+    "category":"salata",
+    "description": "Domates, salatalık,soğan, maydonoz, taze soğan, ceviz, zeytinyağı, sumak, narekşi, limon,tuz",
+    "img":"/images/salad.jpg"
+  },
+  {
+    "id":25,
+    "name": "Et Güveç",
+    "category":"kırmızı et",
+    "description": "Et, sarımsak, kekik, tereyağı, kaşar peyniri, tuz.",
+    "img":"/images/meat2.jpg"
+  },
+  {
+    "id":26,
+    "name": "Hünkar Beğendi",
+    "category":"kırmızı et",
+    "description": "Et yada köfte, patlıcan, süt, un, tereyağı, kaşar, baharatlar, tuz. ",
+    "img":"/images/kebab.jpg"
+  },
+  {
+    "id":27,
+    "name": "Et Döner Menü",
+    "category":"kırmızı et",
+    "description": "Et döner, terayağı, kremalı makarna, salata. ",
+    "img":"/images/meatmenu2.jpg"
+  },
+  {
+    "id":28,
+    "name": "Kremalı Makarna",
+    "category":"makarna",
+    "description": "Kremalı makarna, tuz, tereyağı.",
+    "img":"/images/pasta2.jpg"
+  },
+  {
+    "id":29,
+    "name": "Fransız Mutfağı Ratatuy(Ratatouille)",
+    "category":"sebze",
+    "description": "Patlıcan, kabak, soğan, doamtes, biber, yeşil soğan, sarımsak, zeytinyağı, pulbiber, karabiber, tuz .",
+    "img":"/images/ratatuy.jpg"
+  },
+  {
+    "id":30,
+    "name": "Başlangıç",
+    "category":"başlangıçlar",
+    "description": "Salam, kaşar peynir, labne, marul, domates, kızarmış ekmek.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":31,
+    "name": "Yoğurt Kebap",
+    "category":"kırmızı et",
+    "description": "Et, kibrit patates kızarmış, soğan, kırmızı biber, domates, yoğurt, terayağı.",
+    "img":"/images/kebab2.jpg"
+  },
+  {
+    "id":32,
+    "name": "Patetes Üstü Köfte",
+    "category":"kırmızı et",
+    "description": "Misket köfte, patates, tereyağı.",
+    "img":"/images/meatball.jpg"
+  },
+  {
+    "id":33,
+    "name": "Çilekli Kakaolu Pasta",
+    "category":"tatlı",
+    "description": "Kakaolu kek, çilekli puding, sade kremşanti, kakaolu bisküvi, çilek",
+    "img":"/images/desert3.jpg"
+  },
+  {
+    "id":34,
+    "name": "Milkshake",
+    "category":"içecek",
+    "description": "Muz, çilek, dondurma, süt, waffle, cheese cake, krem şanti, bonibon.",
+    "img":"/images/milkshake.jpg"
+  },
+  {
+    "id":35,
+    "name": "Tavuklu Gözleme",
+    "category":"tavuk",
+    "description": "Tavuk, kırmızı biber, yeşil biber, soğan, kaşar peynir.",
+    "img":"/images/chicken4.jpg"
+  },
+  {
+    "id":36,
+    "name": "Pizzamsı Omlet",
+    "category":"kahvaltı",
+    "description": "Omlet, sosis, salam, tavuk nugget, soğan,sarımsak, biber, kaşarpeynir, susam, çörekotu.",
+    "img":"/images/pizzaomlette.jpg"
+  },
+  {
+    "id":37,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":38,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":39,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":40,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":41,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":42,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":43,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":44,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
   }
 ]

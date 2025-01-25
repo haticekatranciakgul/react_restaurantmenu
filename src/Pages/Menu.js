@@ -68,7 +68,7 @@ function Menu() {
                                                     <div className="lg:flex">
                                                         <div className="lg:shrink-0">
                                                             <img
-                                                                className="h-48 w-full object-cover lg:h-full lg:w-48"
+                                                                className="h-80 w-full object-cover lg:h-80 lg:w-80"
                                                                 src={meal.img}
                                                                 alt={meal.name}
                                                             />
@@ -77,9 +77,7 @@ function Menu() {
                                                             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
                                                                 {meal.name}
                                                             </div>
-                                                            <p className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">
-                                                                ${meal.price}
-                                                            </p>
+                                                          
                                                             <p className="mt-2 text-slate-500">
                                                                 {meal.description} - {meal.category}
                                                             </p>
