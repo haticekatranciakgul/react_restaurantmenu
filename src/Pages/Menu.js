@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardActions from '@mui/material/CardActions';
+import { Grid } from '@mui/material';
+
 
 function Menu() {
     const [meals, setMeals] = useState([]);
-    const [selectedCategory, setSelectedCategory] = useState(''); // Kategori seçimi için state
-    const [searchQuery, setSearchQuery] = useState(''); // Arama sorgusu için state
+    const [selectedCategory, setSelectedCategory] = useState('');
+    const [searchQuery, setSearchQuery] = useState('');
+
 
     useEffect(() => {
         fetch('/data.json')
@@ -23,8 +33,9 @@ function Menu() {
     return (
         <div className="container ">
             <section className="mains">
-                <div className="grid grid-cols-2 gap-4 my-5">
-                    <div>
+
+                <Grid container spacing={2} sx={{ my: 2 }}>
+                    <Grid size={6}>
                         <p className="text-white font-medium my-2">Select Category</p>
                         <select
                             id="category"
@@ -41,10 +52,8 @@ function Menu() {
                                 </option>
                             ))}
                         </select>
-                    </div>
-
-                    {/* Arama Input */}
-                    <div>
+                    </Grid>
+                    <Grid size={6}>
                         <p className="text-white font-medium my-2">Search Meals</p>
                         <input
                             type="text"
@@ -53,45 +62,54 @@ function Menu() {
                             placeholder="Search by name..."
                             className="w-full py-1.5 pl-3 pr-7 text-base text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-600"
                         />
-                    </div>
-                </div>
+                    </Grid>
 
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-4 mx-auto text-center">
+
+                </Grid>
+
+                <Grid container spacing={2} sx={{ my: 2 }}>
+
                     {filteredMeals.map((meal) => (
-                        <article className="menu-item" key={meal.id}>
-                            <Link to={`/Detail/${meal.id}`}>
-                                <div className="w-full pb-5 transition duration-300 ease-in-out">
-                                    <div className="bg-gray-700 p-4">
-                                        <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
-                                            <div className="grid grid-flow-col gap-1">
-                                                <div className="max-w-md bg-gray-300 rounded-xl shadow-md overflow-hidden lg:max-w-2xl">
-                                                    <div className="lg:flex">
-                                                        <div className="lg:shrink-0">
-                                                            <img
-                                                                className="h-80 w-full object-cover lg:h-80 lg:w-80"
-                                                                src={meal.img}
-                                                                alt={meal.name}
-                                                            />
-                                                        </div>
-                                                        <div className="p-8">
-                                                            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                                                                {meal.name}
-                                                            </div>
-                                                          
-                                                            <p className="mt-2 text-slate-500">
-                                                                {meal.description} - {meal.category}
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </button>
-                                    </div>
-                                </div>
-                            </Link>
-                        </article>
+                        <Grid size={4}>
+                            <article className="menu-item" key={meal.id}>
+                                <Link to={`/Detail/${meal.id}`}>
+                                    <Card className="bg-gray-300"  sx={{ maxWidth: 'auto', height: 400, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                                        <CardActionArea >
+                                            <CardMedia
+                                                component="img"
+                                                src={meal.img}
+                                                alt={meal.name}
+                                                sx={{
+                                                    height: 200,
+                                                    objectFit: 'cover', // Görsel kartın içine orantılı sığar, kırpılabilir
+                                                    width: '100%',
+                                                  }}
+                                            />
+                                            <CardContent>
+                                                <Typography gutterBottom variant="h5" component="div">
+                                                    {meal.name}
+                                                </Typography>
+                                                <Typography variant="body2" sx={{ color: 'text.secondary',  height: 60, overflow: 'hidden' }}>
+                                                    {meal.description} - {meal.category}
+                                                </Typography>
+                                            </CardContent>
+                                        </CardActionArea>
+                                        <CardActions>
+                                            <Button size="small" color="primary">
+                                                Share
+                                            </Button>
+                                        </CardActions>
+                                    </Card>
+
+
+
+
+                                </Link>
+                            </article>
+                        </Grid>
                     ))}
-                </div>
+
+                </Grid>
             </section>
         </div>
     );

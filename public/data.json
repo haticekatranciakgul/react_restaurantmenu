@@ -208,11 +208,11 @@
     "name": "Başlangıç",
     "category":"başlangıçlar",
     "description": "Salam, kaşar peynir, labne, marul, domates, kızarmış ekmek.",
-    "img":"/images/chickensish.jpg"
+    "img":"/images/snack.jpg"
   },
   {
     "id":31,
-    "name": "Yoğurt Kebap",
+    "name": "Yoğurtlu Kebap",
     "category":"kırmızı et",
     "description": "Et, kibrit patates kızarmış, soğan, kırmızı biber, domates, yoğurt, terayağı.",
     "img":"/images/kebab2.jpg"
@@ -261,48 +261,251 @@
   },
   {
     "id":38,
-    "name": "Tavuk Şiş",
-    "category":"balık",
-    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
-    "img":"/images/chickensish.jpg"
+    "name": "Patates Üstü Kıyma",
+    "category":"kırmızı et",
+    "description": "Patates, kıyma, soğan, sarımsak, biber, domates, tuz, karabiber, pulbiber.",
+    "img":"/images/meat4.jpg"
   },
   {
     "id":39,
-    "name": "Tavuk Şiş",
-    "category":"balık",
-    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
-    "img":"/images/chickensish.jpg"
+    "name": "Patlıcan",
+    "category":"meze",
+    "description": "Közlenmiş patlıcan, sarımsak, tuz, zeytinyağı, pulbiber.",
+    "img":"/images/snack2.jpg"
   },
   {
     "id":40,
-    "name": "Tavuk Şiş",
-    "category":"balık",
-    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
-    "img":"/images/chickensish.jpg"
+    "name": "Köfte Menü",
+    "category":"köfte",
+    "description": "Köfte, cheddar peyniri, pilav.",
+    "img":"/images/meat5.jpg"
   },
   {
     "id":41,
-    "name": "Tavuk Şiş",
-    "category":"balık",
-    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
-    "img":"/images/chickensish.jpg"
+    "name": "Börek",
+    "category":"börek",
+    "description": "Börek çeşitleri.(Kıymalı, patatesli, peynirli, ıspanaklı, pırasalı, tavuklu)",
+    "img":"/images/snack5.jpg"
   },
   {
     "id":42,
-    "name": "Tavuk Şiş",
-    "category":"balık",
-    "description": "Tavuk şiş zeytinyağı ve kekikle soslanmış, közlenmiş kaşarlı kırmızı biber, haşlanmış kabak.",
-    "img":"/images/chickensish.jpg"
+    "name": "Lazanya",
+    "category":"makarna",
+    "description": "İtalyan mutfağı lazanya",
+    "img":"/images/lasagna2.jpg"
   },
   {
     "id":43,
+    "name": "Çilekli Muzlu Yulaf Lapası",
+    "category":"fit yaşam",
+    "description": "Yulaf, süt, kakao, çia tohumu, keten tohumu, çilek, muz.",
+    "img":"/images/oat2.jpg"
+  },
+  {
+    "id":45,
+    "name": "Paçanga Böreği",
+    "category":"börek",
+    "description": "Paçanga böreği.",
+    "img":"/images/snack6.jpg"
+  },
+  {
+    "id":46,
+    "name": "Tavuk Şiş",
+    "category":"tavuk",
+    "description": "Tavuk göğsü, beşamel sos, kaşar peyniri, kırmızı biber, patates, tuz, karabiber.",
+    "img":"/images/chicken5.jpg"
+  },
+  {
+    "id":47,
+    "name": "Lokma Kebap",
+    "category":"kırmızı et",
+    "description": "Kırmızı et, yufka, kaşar peynir, salça sos, pilav, yoğurt .",
+    "img":"/images/kebap4.jpg"
+  },
+  {
+    "id":48,
+    "name": "Soğuk Sandiviç",
+    "category":"sandivic",
+    "description": "Sandiviç ekmeği, çemen sos, kaşar peyniri, yeşil sivri biber, domates,yeşil zeytin, salam.",
+    "img":"/images/sandvich.jpg"
+  },
+  {
+    "id":49,
+    "name": "Cheese Burger",
+    "category":"burger",
+    "description": "Peynirli hamburger.",
+    "img":"/images/cheseeburger.jpg"
+  },
+  {
+    "id":50,
+    "name": "Hızlı Kahvaltı Tabağı", 
+    "category":"kahvaltı",
+    "description": "Peynir, zeytin, domates, salatalık, salam, kahve.",
+    "img":"/images/fastbreakfast.jpg"
+  },
+  {
+    "id":51,
+    "name": "Kırmızı Et Menü",
+    "category":"kırmızı et",
+    "description": "Et güveç, zeytinyağlı yaprak sarması.",
+    "img":"/images/meat6.jpg"
+  },
+  {
+    "id":52,
+    "name": "Somon Menü",
+    "category":"balık",
+    "description": "Somon balığı, sarımsak ,tereyağı ve çeşitli baharatlar, tereyağlı tel şehriye pilav .",
+    "img":"/images/fish3.jpg"
+  },
+  {
+    "id":53,
     "name": "Tavuk Şiş",
     "category":"balık",
     "description": ".",
     "img":"/images/chickensish.jpg"
   },
   {
-    "id":44,
+    "id":54,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":55,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":56,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":57,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":58,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":59,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":60,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":61,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":62,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":63,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":64,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":65,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":67,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":68,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":69,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":70,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":71,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":72,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":73,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":74,
+    "name": "Tavuk Şiş",
+    "category":"balık",
+    "description": ".",
+    "img":"/images/chickensish.jpg"
+  },
+  {
+    "id":75,
     "name": "Tavuk Şiş",
     "category":"balık",
     "description": ".",
